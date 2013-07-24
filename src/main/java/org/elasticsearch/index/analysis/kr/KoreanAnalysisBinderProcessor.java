@@ -4,7 +4,9 @@
  *
  */
 
-package org.elasticsearch.index.analysis;
+package org.elasticsearch.index.analysis.kr;
+
+import org.elasticsearch.index.analysis.AnalysisModule;
 
 /**
  *

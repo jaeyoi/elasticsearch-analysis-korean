@@ -4,7 +4,7 @@
  *
  */
 
-package org.elasticsearch.index.analysis;
+package org.elasticsearch.index.analysis.kr;
 
 import org.apache.lucene.analysis.Tokenizer;
 import org.apache.lucene.analysis.kr.KoreanTokenizer;
@@ -13,6 +13,7 @@ import org.elasticsearch.common.inject.Inject;
 import org.elasticsearch.common.inject.assistedinject.Assisted;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.index.Index;
+import org.elasticsearch.index.analysis.AbstractTokenizerFactory;
 import org.elasticsearch.index.settings.IndexSettings;
 
 import java.io.Reader;

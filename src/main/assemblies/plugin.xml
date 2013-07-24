@@ -12,9 +12,16 @@
 			<useTransitiveFiltering>true</useTransitiveFiltering>
 			<excludes>
 				<exclude>org.elasticsearch:elasticsearch</exclude>
-                <exclude>org.apache.lucene:lucene-core</exclude>
-                <exclude>log4j:log4j</exclude>
+				<exclude>log4j:log4j</exclude>
 			</excludes>
+		</dependencySet>
+		<dependencySet>
+			<outputDirectory>/</outputDirectory>
+			<useProjectArtifact>true</useProjectArtifact>
+			<useTransitiveFiltering>true</useTransitiveFiltering>
+			<includes>
+				<include>lucene4-korean-analyzer:lucene4-korean-analyzer</include>
+			</includes>
 		</dependencySet>
 	</dependencySets>
 </assembly>
